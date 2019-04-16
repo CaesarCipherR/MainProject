@@ -1,0 +1,4 @@
+14:50:17.661 [main] INFO  resources.Base - Navigated to the homepage
+14:50:19.563 [main] INFO  resources.Base - Successfully Validated Navigation Bar
+14:50:48.106 [main] INFO  resources.Base - Non Restrictive User
+14:51:25.822 [main] INFO  resources.Base - Restrictive User

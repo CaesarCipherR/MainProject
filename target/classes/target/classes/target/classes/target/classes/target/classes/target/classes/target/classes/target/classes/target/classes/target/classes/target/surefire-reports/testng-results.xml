@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="141679" started-at="2019-04-13T16:10:44Z" finished-at="2019-04-13T16:13:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="141679" started-at="2019-04-13T16:10:44Z" finished-at="2019-04-13T16:13:06Z">
+      <class name="Application.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Application.validateNavigationBar@741a8937]" name="initialize" is-config="true" duration-ms="38578" started-at="2019-04-13T16:10:44Z" finished-at="2019-04-13T16:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="baseNavigation()[pri:0, instance:Application.validateNavigationBar@741a8937]" name="baseNavigation" duration-ms="17702" started-at="2019-04-13T16:11:23Z" finished-at="2019-04-13T16:11:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+      </class> <!-- Application.validateNavigationBar -->
+      <class name="Application.HomePage">
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Application.HomePage@306e95ec]" name="baseNavigation" duration-ms="39826" started-at="2019-04-13T16:11:41Z" data-provider="getData" finished-at="2019-04-13T16:12:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonerestrictiveuser@facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restrictive User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Application.HomePage@306e95ec]" name="baseNavigation" duration-ms="45405" started-at="2019-04-13T16:12:21Z" data-provider="getData" finished-at="2019-04-13T16:13:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictiveuser@facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[678910]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrictive User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+      </class> <!-- Application.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

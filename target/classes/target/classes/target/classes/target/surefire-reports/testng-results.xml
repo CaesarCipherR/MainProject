@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="157185" started-at="2019-04-15T17:17:11Z" finished-at="2019-04-15T17:19:49Z">
+    <groups>
+    </groups>
+    <test name="Validating Navigation Bar" duration-ms="41039" started-at="2019-04-15T17:17:11Z" finished-at="2019-04-15T17:17:52Z">
+      <class name="Application.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Application.validateNavigationBar@14dd9eb7]" name="initialize" is-config="true" duration-ms="35430" started-at="2019-04-15T17:17:11Z" finished-at="2019-04-15T17:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:Application.validateNavigationBar@14dd9eb7]" name="validateAppNavBar" duration-ms="1024" started-at="2019-04-15T17:17:47Z" finished-at="2019-04-15T17:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Application.validateNavigationBar@14dd9eb7]" name="teardown" is-config="true" duration-ms="4471" started-at="2019-04-15T17:17:48Z" finished-at="2019-04-15T17:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Application.validateNavigationBar -->
+    </test> <!-- Validating Navigation Bar -->
+    <test name="App testing" duration-ms="0" started-at="2019-04-15T17:17:52Z" finished-at="2019-04-15T17:17:52Z">
+    </test> <!-- App testing -->
+    <test name="Validating User Login" duration-ms="116054" started-at="2019-04-15T17:17:52Z" finished-at="2019-04-15T17:19:49Z">
+      <class name="Application.HomePage">
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Application.HomePage@27f981c6]" name="baseNavigation" duration-ms="42089" started-at="2019-04-15T17:17:52Z" data-provider="getData" finished-at="2019-04-15T17:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonerestrictiveuser@facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restrictive User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method status="PASS" signature="baseNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Application.HomePage@27f981c6]" name="baseNavigation" duration-ms="69488" started-at="2019-04-15T17:18:35Z" data-provider="getData" finished-at="2019-04-15T17:19:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictiveuser@facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[678910]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrictive User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Application.HomePage@27f981c6]" name="teardown" is-config="true" duration-ms="4448" started-at="2019-04-15T17:19:44Z" finished-at="2019-04-15T17:19:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Application.HomePage -->
+    </test> <!-- Validating User Login -->
+  </suite> <!-- Suite -->
+</testng-results>
